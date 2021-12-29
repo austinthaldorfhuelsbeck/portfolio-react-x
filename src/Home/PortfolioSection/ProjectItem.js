@@ -9,6 +9,7 @@ export default function ProjectItem(props) {
       to={"/portfolio/" + props.url}
       className="project-link w-inline-block"
       onClick={props.scrollToTop}
+      data-aos="fade"
     >
       <div className="w-layout-grid grid-2-columns projects">
         <div className="blog-card-image-container enlarge">

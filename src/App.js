@@ -1,5 +1,10 @@
+import React, { useEffect } from "react"
 import { Routes, Route } from "react-router-dom"
 import { animateScroll as scroll } from "react-scroll"
+
+// Animate on scroll effects
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 import Home from "./Home/Home"
 import Portfolio from "./Portfolio/Portfolio"
@@ -12,9 +17,15 @@ import "./App.css"
 import { nav, sections, projects, blocks } from "./data/data"
 
 export default function App() {
+  // Dependencies for visual smoothness:
+  // Animate On Scroll and Smooth Scroll
+  useEffect(() => {
+    Aos.init({ duration: 1000 })
+  }, [])
   const scrollToTop = () => {
     scroll.scrollToTop()
   }
+  
   const props = {
     nav: nav,
     sections: sections,

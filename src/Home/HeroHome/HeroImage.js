@@ -13,7 +13,7 @@ export default function HeroImage({ img_src }) {
         className="hero-image-home"
       />
       <Link smooth to="blocks" className="scroll-down-link w-inline-block">
-        <div className="scroll-link-text bold-white">
+        <div className="scroll-link-text bold-white" data-aos="fade-down">
           Scroll Down
           <img
             src={arrowImgSrc}

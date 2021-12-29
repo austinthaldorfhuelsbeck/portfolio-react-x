@@ -5,10 +5,11 @@ import "./PortfolioSection.css"
 export default function PortfolioSection({ projects, scrollToTop }) {
   // Hardcoded to preview exactly three projects
   const firstThreeProjects = projects.slice(0, 3)
+
   return (
     <div id="portfolio" className="section">
       <div className="container-default">
-        <h2>Portfolio</h2>
+        <h2 data-aos="fade-down">Portfolio</h2>
         <div className="project-collection-list">
           <ProjectGrid
             projects={firstThreeProjects}
@@ -21,6 +22,7 @@ export default function PortfolioSection({ projects, scrollToTop }) {
               to="/portfolio"
               className="button-primary w-button"
               onClick={scrollToTop}
+              data-aos="fade"
             >
               Browse All Projects
             </Link>

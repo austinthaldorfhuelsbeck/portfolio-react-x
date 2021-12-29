@@ -3,7 +3,7 @@ import "./AboutSection.css"
 
 export default function AboutSection({ img_src, paragraph, scrollToTop }) {
   return (
-    <div id="about" className="section home-about wf-section">
+      <div id="about" className="section home-about wf-section" data-aos="fade" data-aos-offset="500">
       <div className="container-default home-about">
         <div className="w-layout-grid grid-2-columns home-about">
           <div className="about-me-home-image-container">

@@ -2,7 +2,7 @@ import { Link } from "react-scroll"
 
 export default function HeroHeader({ subtext, header, paragraph }) {
   return (
-    <div className="hero-header">
+    <div className="hero-header" data-aos="fade">
       <div className="subtext">{subtext}</div>
       <h1 className="mg-top-32px">{header}</h1>
       <p className="paragraph-large">{paragraph}</p>

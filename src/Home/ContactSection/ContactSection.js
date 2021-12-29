@@ -3,7 +3,7 @@ import "./ContactSection.css"
 
 export default function ContactSection({ header, paragraph, scrollToTop }) {
   return (
-    <div id="contact" className="section say-hello">
+    <div id="contact" className="section say-hello" data-aos="fade">
       <div className="container-medium">
         <div className="text-center">
           <h2>{header}</h2>

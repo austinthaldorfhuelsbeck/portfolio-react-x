@@ -14,7 +14,7 @@ export default function BlocksSection({ blocks, alt }) {
   const rightElement = <BlocksColumn {...rightBlock} />
 
   return (
-    <div id="blocks" className="section blocks-and-social">
+    <div id="blocks" className="section blocks-and-social" data-aos="fade">
       <div className="container-default">
         <div className="w-layout-grid grid-2-columns home-blocks">
           {leftElement}

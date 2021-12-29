@@ -193,7 +193,8 @@ img {
 }
 
 .scroll-down-image,
-.scroll-right-image {
+.scroll-right-image,
+.scroll-right-image-less {
   transition: transform 0.5s ease-out;
 }
 .scroll-down-image:hover {
@@ -201,6 +202,9 @@ img {
 }
 .scroll-right-image:hover {
   transform: translateX(20px);
+}
+.scroll-right-image-less:hover {
+  transform: translateX(7px);
 }
 
 .flex {

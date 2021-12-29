@@ -13,7 +13,7 @@ export default function BlocksSubcolumn({ items }) {
           className="link-social-media w-inline-block"
         >
           {item.title + " "}
-          <FontAwesomeIcon icon={faExternalLinkAlt} />
+          <FontAwesomeIcon icon={faExternalLinkAlt} className="scroll-right-image-less" />
         </a>
       )
     } else if (item.link) {
