@@ -1,0 +1,21 @@
+.header-wrapper {
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  border-bottom: 2px solid #191919;
+}
+
+.nav-item {
+  display: inline;
+  padding-right: 2rem;
+  cursor: pointer;
+}
+.nav-item:hover {
+  color: #919191;
+}

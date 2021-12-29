@@ -1,0 +1,66 @@
+.section.hero-about-page {
+  position: relative;
+  min-height: 1000px;
+  padding-top: 160px;
+  padding-bottom: 0px;
+}
+
+.grid-2-columns.about-story {
+  margin-top: 60px;
+  grid-column-gap: 80px;
+}
+
+.grid-2-columns.my-experience {
+  margin-top: 60px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.experience-box {
+  padding-bottom: 80px;
+  border-bottom: 2px solid #191919;
+}
+
+.experience-box.top-left {
+  padding-top: 80px;
+  padding-right: 40px;
+  border-right: 2px solid #191919;
+}
+
+.experience-box.top-right {
+  padding-top: 80px;
+  padding-left: 10%;
+}
+
+.experience-box.bottom-left {
+  padding-top: 80px;
+  border-right: 2px solid #191919;
+  border-bottom-width: 0px;
+}
+
+.experience-box.bottom-right {
+  padding-top: 80px;
+  padding-left: 10%;
+  border-bottom-width: 0px;
+}
+
+.experience-details {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 12px;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.experience-details-divider {
+  margin-right: 12px;
+  margin-left: 12px;
+}

@@ -1,0 +1,9 @@
+.project {
+  margin-bottom: 3rem;
+}
+
+img.portfolio-image {
+  width: 80%;
+  cursor: pointer;
+  margin: 2rem;
+}

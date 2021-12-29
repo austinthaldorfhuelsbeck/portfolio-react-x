@@ -1,0 +1,33 @@
+.section.say-hello {
+  position: relative;
+  overflow: hidden;
+  padding-top: 290px;
+  padding-bottom: 290px;
+}
+
+.text-big-cta {
+  position: absolute;
+  color: #e8ebe8;
+  font-size: 178px;
+  line-height: 180px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 #babbbd, -1px 0 0 #babbbd, 1px 0 0 #babbbd,
+    0 -1px 0 #babbbd;
+  white-space: nowrap;
+}
+
+.text-big-cta.top {
+  left: -56%;
+  top: 11%;
+  right: 0%;
+  bottom: auto;
+}
+
+.text-big-cta.bottom {
+  left: 9%;
+  top: auto;
+  right: 0%;
+  bottom: 11%;
+}
