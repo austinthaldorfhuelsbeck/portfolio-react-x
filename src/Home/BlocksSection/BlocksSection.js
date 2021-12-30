@@ -4,7 +4,7 @@ import "./BlocksSection.css"
 export default function BlocksSection({ blocks, alt }) {
   // Find the left side block or the alt left side block
   const leftBlock = alt
-    ? blocks.find((b) => b.side === "left")
+    ? blocks.find((b) => b.side === "left" && b.alt)
     : blocks.find((b) => b.side === "left" && !b.alt)
   // Find the right side block; there is only one
   const rightBlock = blocks.find((b) => b.side === "right")

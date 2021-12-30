@@ -1,3 +1,13 @@
+.about-image-hero {
+  position: absolute;
+  width: 60%;
+  left: 350px;
+  top: 475px;
+  right: 0%;
+  bottom: 11%;
+  z-index: -1;
+}
+
 .section.hero-about-page {
   position: relative;
   min-height: 1000px;
@@ -63,4 +73,8 @@
 .experience-details-divider {
   margin-right: 12px;
   margin-left: 12px;
+}
+
+.dark-text {
+  color: #000;
 }

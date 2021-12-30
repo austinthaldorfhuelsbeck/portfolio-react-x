@@ -1,19 +1,21 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons"
-import { Link } from "react-router-dom"
+import { useNavigate } from "react-router-dom"
 import "./BackBar.css"
 
 export default function BackBar() {
+  const navigate = useNavigate()
+
   return (
     <div className="container-default w-container">
       <div className="header-wrapper">
         <ul className="list-style-none">
-          <Link to="/">
+          <div onClick={() => navigate(-1)}>
             <li className="nav-item">
               <FontAwesomeIcon icon={faChevronLeft} />
             </li>
             <li className="nav-item">Back</li>
-          </Link>
+          </div>
         </ul>
       </div>
     </div>

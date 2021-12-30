@@ -1,9 +1,80 @@
+.portfolio {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 80px;
+}
+
 .project {
   margin-bottom: 3rem;
 }
 
+.project-block {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+}
+.project-service-item {
+  margin-right: 16px;
+  margin-left: 16px;
+  color: #191919;
+  font-weight: 700;
+}
+.project-container {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.project-divider {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.project-section {
+  padding-bottom: 80px;
+}
+.project-section-img {
+  width: 90%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
 img.portfolio-image {
-  width: 80%;
-  cursor: pointer;
+  width: 90%;
   margin: 2rem;
+}
+
+.section.hero.project {
+  padding-bottom: 150px;
+}
+.section.hero {
+  padding-top: 8rem;
+}
+
+.project-card-details.post {
+  -webkit-box-pack: center;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.link-arrow {
+  display: inline-block;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #000;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.rich-text {
+  color: #757575;
+}
+
+@media screen and (max-width: 991px) {
+  .mg-bottom-32px-tablet {
+    margin-bottom: 32px;
+  }
 }

@@ -141,15 +141,15 @@ img {
 .mg-top-32px {
   margin-top: 32px;
 }
-
+.mg-top-40px {
+  margin-top: 40px;
+}
 .mg-top-48px {
   margin-top: 48px;
 }
-
 .mg-top-56px {
   margin-top: 56px;
 }
-
 .mg-top-76px {
   margin-top: 76px;
 }
@@ -227,16 +227,6 @@ img {
 
 .text-center {
   text-align: center;
-}
-
-.about-image-hero {
-  position: absolute;
-  width: 70%;
-  left: 250px;
-  top: 375px;
-  right: 0%;
-  bottom: 11%;
-  z-index: -1;
 }
 
 .divider {
