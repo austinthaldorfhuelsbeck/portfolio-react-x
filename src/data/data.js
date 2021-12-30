@@ -69,10 +69,14 @@ export const projects = [
       },
       {
         technology_id: 2,
-        title: "React"
+        title: "React.js"
       },
       {
         technology_id: 3,
+        title: "Node.js"
+      },
+      {
+        technology_id: 4,
         title: "CSS"
       }
     ],
@@ -115,8 +119,8 @@ export const projects = [
     img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisng elit. Mi odio sed sapien quisque posuere.",
-    link: "",
-    repo: "",
+    link: "https://austinandemilycreative.com",
+    repo: "https://github.com/austinthaldorfhuelsbeck/austin-and-emily-creative",
     technologies: [
       {
         technology_id: 1,
@@ -124,11 +128,11 @@ export const projects = [
       },
       {
         technology_id: 2,
-        title: "React"
+        title: "React.js"
       },
       {
-        technology_id: 3,
-        title: "CSS"
+        technology_id: 5,
+        title: "Bootstrap"
       }
     ],
     sections: [
@@ -170,8 +174,8 @@ export const projects = [
     img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg",
     paragraph:
       "Lorem ipsum dolor sit amet, consectetur adipisng elit. Mi odio sed sapien quisque posuere.",
-    link: "",
-    repo: "",
+    link: "http://austinthaldorfhuelsbeck.com",
+    repo: "https://github.com/austinthaldorfhuelsbeck/portfolio-with-react",
     technologies: [
       {
         technology_id: 1,
@@ -179,10 +183,14 @@ export const projects = [
       },
       {
         technology_id: 2,
-        title: "React"
+        title: "React.js"
       },
       {
         technology_id: 3,
+        title: "Node.js"
+      },
+      {
+        technology_id: 4,
         title: "CSS"
       }
     ],
