@@ -1,5 +1,5 @@
 # Creative X Portfolio
-### A template for a developer portfolio built in React
+### A template for a portfolio, built in React.
 
 ## Table of Contents
 1. Application Description
