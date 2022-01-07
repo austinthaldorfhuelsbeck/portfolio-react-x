@@ -12,10 +12,6 @@ export default function Footer({ blocks, scrollToTop }) {
           >
             <h3 className="footer-logo">Back To Top</h3>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisng elit. Mi odio sed
-            sapien quisque posuere.
-          </p>
         </div>
       </div>
       <BlocksSection blocks={blocks} alt={true} />

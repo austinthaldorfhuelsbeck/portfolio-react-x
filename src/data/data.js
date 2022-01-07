@@ -174,7 +174,7 @@ export const projects = [
     date: "May 2021",
     img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipisng elit. Mi odio sed sapien quisque posuere.",
+      "A customizable portfolio template built as a single-page app in React, with some custom CSS and simple animations.",
     link: "http://austinthaldorfhuelsbeck.com",
     repo: "https://github.com/austinthaldorfhuelsbeck/portfolio-with-react",
     technologies: [
@@ -201,7 +201,7 @@ export const projects = [
         title: "about",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et <strong>odio pellentesque</strong> diam volutpat commodo sed. Eu turpis egestas pretium doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at <a href="http://google.com">consectetur lorem</a>. A cras semper auctor nequ.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sit laoreet tincidunt libero odio nisl ornare. Euismod ut imperdiet tincidunt non nunc malesuada. Non urna ornare ultrices hendrerit gravida. Placerat orci in vulputate dignissim facilisis quisque natoque. Aenean erat donec.</p>
+            <p>The site you are visiting was ultimately built to replace this project, and it serves much of the same purpose. A basic single-page app displays a static navbar component and transparent footer component.</p><p>From there, 'react-router' handles the rendering in between. The root directory redirects to display the most recent projects upfront. A secondary project page comes next in the navigation, followed by an about section and full resume.</p>
           `,
         img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg"
       },
@@ -210,7 +210,7 @@ export const projects = [
         title: "execution",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et odio pellentesque diam <strong>volutpat commodo sed</strong>. Eu turpis egestas pretium doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at <a href="https://www.google.com/">consectetur lorem</a>. A cras semper auctor nequ.</p><ul role="list"><li>Semper auctor neque vitae tempus quam pellentesque nec nam</li><li>Ecelerisque purus semper eget duis at.</li><li>Urna porttitor rhoncus dolor purus non enim.</li><li>Nulla posuere sollicitudin aliquam ultrices sagittis orci.</li></ul>
+            <p>This project was completed as I reached the end of my bootcamp program, just as I completed my capstone project. I employed much of the same approach as my capstone project:</p><ul><li>A postgreSQL database</li><li>A React.js frontend</li><li>A Node.js and Express backend</li><li>Hosted on Vercel</li></ul>
           `,
         img: ""
       },
@@ -219,7 +219,7 @@ export const projects = [
         title: "results",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et odio pellentesque diam volutpat commodo sed. Eu turpis <strong>egestas pretium</strong> doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at consectetur lorem. <a href="https://www.google.com/">A cras semper auctor</a> nequ.</p>
+            <p>This site served as my only portfolio through 2021, and I have been able to continue updating it regularly through the continuous deployment on Vercel.</p><p>The design is original and continuously changing, and it is simple to adapt into a React or Next.js app without writing any backend code, or as an HTML/CSS template.</p>
           `,
         img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg"
       }
