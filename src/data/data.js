@@ -1,3 +1,4 @@
+
 export const nav = [
   {
     nav_id: "1",
@@ -46,7 +47,7 @@ export const sections = [
     title: "contact",
     header: "Say Hello",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit lacus nisi, erat sed porta. Sem bibendum eu dui convallis. Et id.",
+      "I am currently available for full-time contracts, as well as web development work for personal projects. Reach out now to say hey!",
   },
 ]
 
@@ -59,9 +60,9 @@ export const projects = [
     date: "Oct 2021",
     img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-cathy-loerzel-thumbnail.jpg",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipisng elit. Mi odio sed sapien quisque posuere.",
+      "A full-stack solution for a public figure's homepage, including an admin dashboard to modify content.",
     link: "http://cathyloerzel.com",
-    repo: "https://github.com/austinthaldorfhuelsbeck/cathy-loerzel",
+    repo: "https://github.com/austinthaldorfhuelsbeck/cathy-loerzel-refresh",
     technologies: [
       {
         technology_id: 1,
@@ -86,16 +87,16 @@ export const projects = [
         title: "about",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et <strong>odio pellentesque</strong> diam volutpat commodo sed. Eu turpis egestas pretium doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at <a href="http://google.com">consectetur lorem</a>. A cras semper auctor nequ.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sit laoreet tincidunt libero odio nisl ornare. Euismod ut imperdiet tincidunt non nunc malesuada. Non urna ornare ultrices hendrerit gravida. Placerat orci in vulputate dignissim facilisis quisque natoque. Aenean erat donec.</p>
+            <p>When Cathy reached out about developing her personal website, she needed a finished product quickly in anticipation of her book release. By following self-made deadlines each step of the way, and through working closely with a graphic designer, I was able to deliver a stable deployment on-time.</p><p>After the client approved the design for the frontend, I got to work on developing a custom Node.js API. Working with a Postgres database, I was able to keep crucial data away from the React project, which allowed me to develop a second React app to create and modify data.</p><p>The design began with inspiration from a modified Webflow template, where it then was converted to React. I made constant use of custom CSS throughout the project. This allowed me to keep a consistent look throughout, while increasing browser compatibility and responsiveness.
           `,
-        img: "https://assets.website-files.com/6075067ce85066282bbab900/60764bd0b0f8f46b941cd267_project-creative-x-webflow-template.png"
+        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-cathy-loerzel-thumbnail.jpg"
       },
       {
         section_id: 2,
         title: "execution",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et odio pellentesque diam <strong>volutpat commodo sed</strong>. Eu turpis egestas pretium doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at <a href="https://www.google.com/">consectetur lorem</a>. A cras semper auctor nequ.</p><ul role="list"><li>Semper auctor neque vitae tempus quam pellentesque nec nam</li><li>Ecelerisque purus semper eget duis at.</li><li>Urna porttitor rhoncus dolor purus non enim.</li><li>Nulla posuere sollicitudin aliquam ultrices sagittis orci.</li></ul>
+            <p>Developing this project challenged my knowledge of web development techniques. Some of the key challenges associated with this project's execution include:<ul role="list"><li>Maintaining readability and modularity in a large-scale React App</li><li>CSS-Grid, CSS Animations, and more customized CSS "tricks"</li><li>Structuring a relational database efficiently</li><li>Performing validation and queries with Express</li><li>Performing complex table lookups efficiently utilizing Knex.js</li><li>Integrations for Mailchimp, emailjs, and Google Analytics</ul>
           `,
         img: ""
       },
@@ -104,9 +105,9 @@ export const projects = [
         title: "results",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et odio pellentesque diam volutpat commodo sed. Eu turpis <strong>egestas pretium</strong> doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at consectetur lorem. <a href="https://www.google.com/">A cras semper auctor</a> nequ.</p>
+            <p>Cathy's project was delivered on-time for her book release. I have been able to provide immediate assistance and modifications to the site's data thanks to the presence of a relational database, and thanks to the continuous deployment through Vercel. New functionality is added regularly to the admin dashboard, to help Cathy maintain the site on her own.</p>
           `,
-        img: "https://assets.website-files.com/6075067ce85066282bbab900/60764c67f910134a4053f7b2_project-two-creative-x-webflow-template.png"
+        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-cathy-loerzel-thumbnail.jpg"
       }
     ]
   },
@@ -118,7 +119,7 @@ export const projects = [
     date: "Mar 2021",
     img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipisng elit. Mi odio sed sapien quisque posuere.",
+      "A basic React app built to render a frontend and facilitate a contact form.",
     link: "https://austinandemilycreative.com",
     repo: "https://github.com/austinthaldorfhuelsbeck/austin-and-emily-creative",
     technologies: [
@@ -141,16 +142,16 @@ export const projects = [
         title: "about",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et <strong>odio pellentesque</strong> diam volutpat commodo sed. Eu turpis egestas pretium doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at <a href="http://google.com">consectetur lorem</a>. A cras semper auctor nequ.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sit laoreet tincidunt libero odio nisl ornare. Euismod ut imperdiet tincidunt non nunc malesuada. Non urna ornare ultrices hendrerit gravida. Placerat orci in vulputate dignissim facilisis quisque natoque. Aenean erat donec.</p>
+            <p>My wife started a wedding videography business in 2019, and in 2020 I came alongside as her second videographer. It wasn't long before we needed a website, and I built us this basic frontend app to save some money on hosting fees for site-builders.</p><p>This single-page React app displays our portfolio, provides information about us and what we do, and renders a contact form to submit an inquiry. The node.js backend sends alerts to our inbox when a couple reaches out.</p>
           `,
-        img: "https://assets.website-files.com/6075067ce85066282bbab900/60764bd0b0f8f46b941cd267_project-creative-x-webflow-template.png"
+        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg"
       },
       {
         section_id: 2,
         title: "execution",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et odio pellentesque diam <strong>volutpat commodo sed</strong>. Eu turpis egestas pretium doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at <a href="https://www.google.com/">consectetur lorem</a>. A cras semper auctor nequ.</p><ul role="list"><li>Semper auctor neque vitae tempus quam pellentesque nec nam</li><li>Ecelerisque purus semper eget duis at.</li><li>Urna porttitor rhoncus dolor purus non enim.</li><li>Nulla posuere sollicitudin aliquam ultrices sagittis orci.</li></ul>
+            <p>This was the first full-stack app I developed while I was learning Node.js and Express. The API stores data related to the featured couples, and stores all the form's responses into a database.</p><p>The React frontend renders the featured couples by utilizing the API, which allows us to update the site without writing any code.</p></p><p>While developing this project I became quite familiar with the following libraries:</p><ul><li>Express with 'cors' & 'nodemailer'</li><li>Bootstrap & 'react-bootstrap'</li><li>'react-player' for displaying video</li><li>'react-router' for displaying a single-page app</li><li>'react-scrips' to start servers & deployment</li></ul>
           `,
         img: ""
       },
@@ -159,9 +160,9 @@ export const projects = [
         title: "results",
         html:
           `
-            <p>Sit amet massa vitae tortor condimentum lacinia. Donec et odio pellentesque diam volutpat commodo sed. Eu turpis <strong>egestas pretium</strong> doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at consectetur lorem. <a href="https://www.google.com/">A cras semper auctor</a> nequ.</p>
+            <p>The primary purpose of the site is to display our work and to collect leads. In 2021, the form on this site became our top source for getting in contact with new couples.</p><p>The most recent version of the site deployed in March 2021, and the nodemailer solution has remained reliable.</p>
           `,
-        img: "https://assets.website-files.com/6075067ce85066282bbab900/60764c67f910134a4053f7b2_project-two-creative-x-webflow-template.png"
+        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg"
       }
     ]
   },
