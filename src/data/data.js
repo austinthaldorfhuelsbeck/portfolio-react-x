@@ -84,7 +84,7 @@ export const projects = [
           `
             <p>When Cathy reached out about developing her personal website, she needed a finished product quickly in anticipation of her book release. By following self-made deadlines each step of the way, and through working closely with a graphic designer, I was able to deliver a stable deployment on-time.</p><p>After the client approved the design for the frontend, I got to work on developing a custom Node.js API. Working with a Postgres database, I was able to keep crucial data away from the React project, which allowed me to develop a second React app to create and modify data.</p><p>The design began with inspiration from a modified Webflow template, where it then was converted to React. I made constant use of custom CSS throughout the project. This allowed me to keep a consistent look throughout, while increasing browser compatibility and responsiveness.
           `,
-        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-cathy-loerzel-thumbnail.jpg"
+        img: "https://storage.cloud.google.com/cathy-loerzel-img/cathy-2.gif"
       },
       {
         section_id: 2,
@@ -102,7 +102,7 @@ export const projects = [
           `
             <p>Cathy's project was delivered on-time for her book release. I have been able to provide immediate assistance and modifications to the site's data thanks to the presence of a relational database, and thanks to the continuous deployment through Vercel. New functionality is added regularly to the admin dashboard, to help Cathy maintain the site on her own.</p>
           `,
-        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-cathy-loerzel-thumbnail.jpg"
+        img: "https://storage.cloud.google.com/cathy-loerzel-img/cathy-3.gif"
       }
     ]
   },
@@ -139,7 +139,7 @@ export const projects = [
           `
             <p>My wife started a wedding videography business in 2018, and in 2019 I came alongside as her second videographer. It wasn't long before we needed a website, and I built us this basic frontend app to save some money on hosting fees for site-builders.</p><p>This single-page React app displays our portfolio, provides information about us and what we do, and renders a contact form to submit an inquiry. The node.js backend sends alerts to our inbox when a couple reaches out.</p>
           `,
-        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg"
+        img: "https://storage.cloud.google.com/cathy-loerzel-img/aec-2.gif"
       },
       {
         section_id: 2,
@@ -157,7 +157,7 @@ export const projects = [
           `
             <p>The primary purpose of the site is to display our work and to collect leads. In 2021, the form on this site became our top source for getting in contact with new couples.</p><p>The most recent version of the site deployed in March 2021, and the nodemailer solution has remained reliable.</p>
           `,
-        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg"
+        img: "https://storage.cloud.google.com/cathy-loerzel-img/aec-3.gif"
       }
     ]
   },
@@ -197,7 +197,7 @@ export const projects = [
           `
             <p>The site you are visiting was ultimately built to replace this project, and it serves much of the same purpose. A basic single-page app displays a static navbar component and transparent footer component.</p><p>From there, 'react-router' handles the rendering in between. The root directory redirects to display the most recent projects upfront. A secondary project page comes next in the navigation, followed by an about section and full resume.</p>
           `,
-        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg"
+        img: ""
       },
       {
         section_id: 2,
@@ -206,7 +206,7 @@ export const projects = [
           `
             <p>This project was completed as I reached the end of my bootcamp program, just as I completed my capstone project. I employed much of the same approach as my capstone project:</p><ul><li>A postgreSQL database</li><li>A React.js frontend</li><li>A Node.js and Express backend</li><li>Hosted on Vercel</li></ul>
           `,
-        img: ""
+        img: "https://storage.cloud.google.com/cathy-loerzel-img/portfolio-1.gif"
       },
       {
         section_id: 3,
@@ -215,7 +215,7 @@ export const projects = [
           `
             <p>This site served as my only portfolio through 2021, and I have been able to continue updating it regularly through the continuous deployment on Vercel.</p><p>The design is original and continuously changing, and it is simple to adapt into a React or Next.js app without writing any backend code, or as an HTML/CSS template.</p>
           `,
-        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg"
+        img: ""
       }
     ]
   },
