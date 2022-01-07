@@ -20,7 +20,7 @@ export default function Contact() {
   } = process.env
 
   /* Form state and thank you message state */
-  const { register, handleSubmit } = useForm()
+  const { register, handleSubmit, watch } = useForm()
   const [isThankYou, setIsThankYou] = useState(false)
 
   /* Submit handler using emailjs */
@@ -39,6 +39,10 @@ export default function Contact() {
         console.log("FAILED...", error)
       })
   }
+
+  /* Keep track of characters remaining in message */
+  const message = watch("message") || ""
+  const messageCharsLeft = 1500 - message.length
 
   return (
     <>
@@ -80,9 +84,10 @@ export default function Contact() {
             {...register("message", {
               required: true,
               height: 9,
-              maxLength: 5000
+              maxLength: 1500
             })}
           />
+          <p className="message-chars-left">{message.length + " / " + messageCharsLeft}</p>
 
           <input type="submit" />
 

@@ -46,6 +46,11 @@ textarea {
   height: 8rem;
 }
 
+.message-chars-left {
+  font-size: 12px;
+  text-align: right;
+}
+
 label {
   line-height: 2;
   text-align: left;
