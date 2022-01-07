@@ -1,28 +1,22 @@
 
 export const nav = [
   {
-    nav_id: "1",
-    title: "Home",
-    link: "/",
-    order: 1,
-  },
-  {
     nav_id: "2",
     title: "Portfolio",
     link: "portfolio",
-    order: 2,
+    order: 1,
   },
   {
     nav_id: "3",
     title: "About",
     link: "about",
-    order: 3,
+    order: 2,
   },
   {
     nav_id: "4",
     title: "Contact",
     link: "contact",
-    order: 4,
+    order: 3,
   },
 ]
 
@@ -38,10 +32,11 @@ export const sections = [
   },
   {
     title: "about",
+    header: "Hello!",
     img_src:
       "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/austinthaldorfhuelsbeck-2.jpg",
     paragraph:
-      "Building, creating, and fine-tuning is where I feel at home. Whether it's solving a design challenge, or editing a feature film, I've always gravitated towards the problem-solving side of creative fields. Learning to code has brought that problem-solving, engineering-mindedness into full focus.",
+      "My name is Austin. Building, creating, and fine-tuning is where I feel at home. Whether it's solving a design challenge, or editing a feature film, I've always gravitated towards the problem-solving side of creative fields. Learning to code has brought that problem-solving, engineering-mindedness into full focus.",
   },
   {
     title: "contact",
@@ -142,7 +137,7 @@ export const projects = [
         title: "about",
         html:
           `
-            <p>My wife started a wedding videography business in 2019, and in 2020 I came alongside as her second videographer. It wasn't long before we needed a website, and I built us this basic frontend app to save some money on hosting fees for site-builders.</p><p>This single-page React app displays our portfolio, provides information about us and what we do, and renders a contact form to submit an inquiry. The node.js backend sends alerts to our inbox when a couple reaches out.</p>
+            <p>My wife started a wedding videography business in 2018, and in 2019 I came alongside as her second videographer. It wasn't long before we needed a website, and I built us this basic frontend app to save some money on hosting fees for site-builders.</p><p>This single-page React app displays our portfolio, provides information about us and what we do, and renders a contact form to submit an inquiry. The node.js backend sends alerts to our inbox when a couple reaches out.</p>
           `,
         img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg"
       },
@@ -301,11 +296,19 @@ export const blocks = [
             column_id: 3,
             link: true,
             external: false,
+            title: "Home",
+            url: "/"
+          },
+          {
+            item_id: 8,
+            column_id: 3,
+            link: true,
+            external: false,
             title: "Full Portfolio",
             url: "/portfolio",
           },
           {
-            item_id: 8,
+            item_id: 9,
             column_id: 3,
             link: true,
             external: false,
@@ -313,7 +316,7 @@ export const blocks = [
             url: "/about",
           },
           {
-            item_id: 9,
+            item_id: 10,
             column_id: 3,
             link: true,
             external: false,
@@ -370,46 +373,46 @@ export const pages = [
     title: "about",
     header: "Hello, I'm Austin Thaldorf-Huelsbeck",
     paragraph: "Full-stack web developer who is proficient in HTML, CSS, and JavaScript with React.js and Node.js. Digital marketing specialist and wedding vendor.",
-    columnOne: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum sit amet, consectetur adipiscing elit",
-    columnTwo: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem",
+    columnOne: "I live up among the pines in beautiful Seattle, Washington. I love React, and I spend a lot of my time building React projects and learning new technologies to make my projects better. Using these skills, I have been able to help some of my friends and colleagues to create the web presence of their dreams. When I'm not developing projects, I'm probably creating wedding films with my wife Emily.",
+    columnTwo: "Fill-stack web development combines a bit of the creative with the technical. My training in digital marketing & filmmaking inform the design side, while my passion for math & engineering informs the technical side. While building apps alone has been rewarding, my goal is to be able to create with a team of like-minded developers. My professional experience over the past decade has taught me that collaboration is the key to creating amazing results and sharpening your own skills.",
     img_src:
       "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/austinthaldorfhuelsbeck.jpg",
     experiences: [
       {
         experienceId: 1,
-        title: "Senior Product Designer",
-        company: "Google",
-        start: "Jan 2020",
+        title: "Founder, Videographer",
+        company: "Austin + Emily Creative",
+        start: "July 2019",
         end: "Present",
-        url: "http://www.google.com",
-        paragraph: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat"
+        url: "https://austinandemilycreative.com/about",
+        paragraph: "Helping adventurous couples tell their love story for generations to come."
       },
       {
         experienceId: 2,
-        title: "Lead UI Designer",
-        company: "Webflow",
-        start: "Feb 2021",
-        end: "Dec 2021",
-        url: "http://www.webflow.com",
-        paragraph: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat"
+        title: "Digital Multimedia Specialist",
+        company: "The Seattle School",
+        start: "Dec 2018",
+        end: "Aug 2021",
+        url: "https://theseattleschool.edu/about/",
+        paragraph: "Grew video library to 100+. Recorded, distributed a weekly podcast with 3 million downloads. Let major social media initiatives."
       },
       {
         experienceId: 3,
-        title: "UI/UX Designer",
-        company: "Twitter",
-        start: "Jan 2018",
-        end: "Jan 2021",
-        url: "http://www.twitter.com",
-        paragraph: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat"
+        title: "Video Editor, Creative Director",
+        company: "Worship Online",
+        start: "Jun 2016",
+        end: "Jan 2019",
+        url: "https://worshiponline.com/",
+        paragraph: "Led the team in designing operations for creating lesson videos. Produced all digital marketing content. Launched a new business as one of the first hires."
       },
       {
         experienceId: 4,
-        title: "Mobile UI/UX Designer",
-        company: "Facebook",
-        start: "Jan 2015",
-        end: "Dec 2017",
-        url: "http://www.facebook.com",
-        paragraph: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat"
+        title: "Certificate in Software Engineering",
+        company: "Thinkful",
+        start: "Nov 2020",
+        end: "July 2021",
+        url: "https://www.thinkful.com/bootcamp/web-development/",
+        paragraph: "Fast-paced bootcamp with an emphasis on mentorship. HTML, CSS, JavaScript. Postgres, React, Express, Node stack."
       }
     ]
   },

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import "./AboutSection.css"
 
-export default function AboutSection({ img_src, paragraph, scrollToTop }) {
+export default function AboutSection({ img_src, header, paragraph, scrollToTop }) {
   return (
       <div id="about" className="section home-about wf-section" data-aos="fade" data-aos-offset="500">
       <div className="container-default home-about">
@@ -14,7 +14,7 @@ export default function AboutSection({ img_src, paragraph, scrollToTop }) {
             />
           </div>
           <div>
-            <h2>About Me</h2>
+            <h2>{header}</h2>
             <p className="paragraph-large">{paragraph}</p>
             <div className="mg-top-76px">
               <Link
