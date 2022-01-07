@@ -394,7 +394,7 @@ export const pages = [
         start: "Dec 2018",
         end: "Aug 2021",
         url: "https://theseattleschool.edu/about/",
-        paragraph: "Grew video library to 100+. Recorded, distributed a weekly podcast with 3 million downloads. Let major social media initiatives."
+        paragraph: "Grew video library to 100+. Recorded, distributed a weekly podcast with 3 million downloads. Led major social media initiatives."
       },
       {
         experienceId: 3,
