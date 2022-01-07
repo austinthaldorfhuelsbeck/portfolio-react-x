@@ -26,15 +26,15 @@ export default function Contact() {
           <label>Email*</label>
           <input
             type="text"
-            {...register("Email", {
+            {...register("email", {
               required: true,
               pattern: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
             })}
           />
-          <label>Mobile number</label>
+          <label>Phone number</label>
           <input
             type="tel"
-            {...register("Mobile number", {
+            {...register("phone_number", {
               required: false,
               maxLength: 11,
               minLength: 8
@@ -43,7 +43,7 @@ export default function Contact() {
           <label>Message</label>
           <textarea
             type="textarea"
-            {...register("Message", {
+            {...register("message", {
               required: true,
               height: 9,
               maxLength: 5000
