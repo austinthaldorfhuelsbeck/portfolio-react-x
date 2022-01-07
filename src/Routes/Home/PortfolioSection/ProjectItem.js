@@ -1,6 +1,10 @@
+// Dependencies
 import { Link } from "react-router-dom"
 
 export default function ProjectItem(props) {
+
+  /* TODO Temporary: scrolldown arrow image;
+   * could be fontawesome potentially */
   const arrowImgSrc =
     "https://assets.website-files.com/6075067ce8506664f2bab8ef/607651a2c5d0b98b2b5bc829_project-arrow-creative-x-webflow-template.svg"
 
@@ -12,6 +16,8 @@ export default function ProjectItem(props) {
       data-aos="fade"
     >
       <div className="w-layout-grid grid-2-columns projects">
+
+        {/* TODO: Could be a seperate component */}
         <div className="blog-card-image-container enlarge">
           <img
             src={props.img}
@@ -37,6 +43,7 @@ export default function ProjectItem(props) {
             </div>
           </div>
         </div>
+
       </div>
     </Link>
   )

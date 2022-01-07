@@ -1,6 +1,10 @@
+// Dependencies
 import { Link } from "react-scroll"
 
 export default function HeroImage({ img_src }) {
+
+  /* TODO Temporary: scrolldown arrow image;
+   * could be fontawesome potentially */
   const arrowImgSrc =
     "https://assets.website-files.com/6075067ce8506664f2bab8ef/6075a30866432ef6b6513e0e_arrow-down-creative-x-webflow-template.svg"
 

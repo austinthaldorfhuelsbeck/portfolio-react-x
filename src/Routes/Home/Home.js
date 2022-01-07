@@ -1,4 +1,4 @@
-// Import sections
+// Components (sections)
 import NavBar from "../../Components/NavBar/NavBar"
 import HeroHome from "./HeroHome/HeroHome"
 import BlocksSection from "./BlocksSection/BlocksSection"
@@ -7,7 +7,9 @@ import AboutSection from "./AboutSection/AboutSection"
 import ContactSection from "./ContactSection/ContactSection"
 
 export default function Home({ nav, sections, projects, blocks, scrollToTop }) {
-  // Find each section and store as objects
+
+  /* Find each section and store as objects,
+   * to pass through as props */
   const hero = sections.find((s) => s.title === "hero")
   const about = sections.find((s) => s.title === "about")
   const contact = sections.find((s) => s.title === "contact")
@@ -22,4 +24,5 @@ export default function Home({ nav, sections, projects, blocks, scrollToTop }) {
       <ContactSection {...contact} scrollToTop={scrollToTop} />
     </div>
   )
+  
 }

@@ -1,7 +1,11 @@
+// Icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 
 export default function ExperienceBox({ experience }) {
+
+  /* Takes an experience from db and structures a card */
+
   return (
     <>
       <div className="experience-details">

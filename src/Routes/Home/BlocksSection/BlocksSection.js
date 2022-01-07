@@ -1,7 +1,11 @@
+// Components
 import BlocksColumn from "./BlocksColumn"
+
+// CSS
 import "./BlocksSection.css"
 
 export default function BlocksSection({ blocks, alt }) {
+  
   // Find the left side block or the alt left side block
   const leftBlock = alt
     ? blocks.find((b) => b.side === "left" && b.alt)

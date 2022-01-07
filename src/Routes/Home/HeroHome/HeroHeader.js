@@ -1,3 +1,4 @@
+// Dependencies
 import { Link } from "react-scroll"
 
 export default function HeroHeader({ subtext, header, paragraph }) {

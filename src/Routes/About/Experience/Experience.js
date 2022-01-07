@@ -1,6 +1,10 @@
+// Components
 import ExperienceBox from "./ExperienceBox"
 
 export default function Experience({ experiences }) {
+
+    /* Uses css-grid to position boxes */
+    
     return (
     <div className="experience-section">
       <div className="container-default w-container">

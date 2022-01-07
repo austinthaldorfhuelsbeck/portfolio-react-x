@@ -25,7 +25,11 @@ export default function Contact() {
 
   /* Submit handler using emailjs */
   const onSubmit = data => {
+
+    /* Select form element to force reset */
     const form = document.querySelector("#contact-form")
+    
+    /* Emailjs configuration, send, response handle */
     sendForm(
       REACT_APP_SERVICE_ID,
       REACT_APP_TEMPLATE_ID,
@@ -38,6 +42,7 @@ export default function Contact() {
       }, error => {
         console.log("FAILED...", error)
       })
+
   }
 
   /* Keep track of characters remaining in message */
@@ -46,19 +51,23 @@ export default function Contact() {
 
   return (
     <>
+      {/* Render BackBar first */}
       <BackBar />
 
       <div className="contact">
+        {/* Header and conditional thank you */}
         <h1>Get in touch</h1>
         {isThankYou && <h3>Thank you for inquiring!</h3>}
         <form id="contact-form" onSubmit={handleSubmit(onSubmit)}>
 
+          {/* Name, required */}
           <label>Name*</label>
           <input
             type="text"
             {...register("user_name", { required: true, maxLength: 80 })}
           />
 
+          {/* Email, required */}
           <label>Email*</label>
           <input
             type="email"
@@ -68,6 +77,7 @@ export default function Contact() {
             })}
           />
 
+          {/* Phone number */}
           <label>Phone number</label>
           <input
             type="tel"
@@ -78,6 +88,7 @@ export default function Contact() {
             })}
           />
 
+          {/* Message, required */}
           <label>Message*</label>
           <textarea
             type="textarea"
@@ -87,6 +98,8 @@ export default function Contact() {
               maxLength: 1500
             })}
           />
+
+          {/* Display characters remaining */}
           <p className="message-chars-left">{message.length + " / " + messageCharsLeft}</p>
 
           <input type="submit" />

@@ -1,8 +1,13 @@
+// Components
 import HeroHeader from "./HeroHeader"
 import HeroImage from "./HeroImage"
+
+// CSS
 import "./HeroHome.css"
 
 export default function HeroHome(props) {
+
+  /* Combines the two components within a grid */
   return (
     <div className="section hero-home">
       <div className="container-default">

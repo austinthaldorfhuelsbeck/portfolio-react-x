@@ -1,3 +1,4 @@
+// Components
 import BlocksSubcolumn from "./BlocksSubcolumn"
 
 export default function BlocksColumn({ side, subtext, columns }) {

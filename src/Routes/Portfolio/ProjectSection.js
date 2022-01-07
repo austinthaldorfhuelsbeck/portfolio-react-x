@@ -1,7 +1,9 @@
+// Components
 import Divider from "../../Components/Divider/Divider"
 
 export default function ProjectSection({ section }) {
-  // Figure out the conditional header
+  
+  /* Component is reused; find the conditional header */
   let header = ""
   if (section.title === "about") {
     header = "About The Project"
@@ -17,6 +19,7 @@ export default function ProjectSection({ section }) {
     <div className="project-container" data-aos="fade">
       <div className="project-section">
         <h2>{header}</h2>
+        {/* Project descriptions are rich text */}
         <div
           dangerouslySetInnerHTML={{ __html: section.html }}
           className="rich-text w-richtext"

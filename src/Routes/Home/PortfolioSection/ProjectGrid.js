@@ -1,9 +1,12 @@
+// Components
 import ProjectItem from "./ProjectItem"
 
 export default function ProjectGrid({ projects, scrollToTop }) {
   return (
     <ul className="project-grid">
       {projects.map((project) => (
+        
+        /* Add margin to bottom of all but the last item */
         <li
           key={project.project_id}
           className={
@@ -14,6 +17,7 @@ export default function ProjectGrid({ projects, scrollToTop }) {
         >
           <ProjectItem {...project} scrollToTop={scrollToTop} />
         </li>
+
       ))}
     </ul>
   )

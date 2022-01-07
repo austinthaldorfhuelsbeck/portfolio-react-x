@@ -1,12 +1,17 @@
-import BackBar from "../../Components/BackBar/BackBar"
+// Dependencies
 import { useParams } from "react-router-dom"
-import "./Portfolio.css"
 
+// Components
+import BackBar from "../../Components/BackBar/BackBar"
 import ProjectHeader from "./ProjectHeader"
 import ProjectTechnologies from "./ProjectTechnologies"
 import ProjectSection from "./ProjectSection"
 
+// CSS
+import "./Portfolio.css"
+
 export default function Project({ projects }) {
+
   // Check url paramaters for which project to display
   const { url } = useParams()
   // Search projects list for the correct project

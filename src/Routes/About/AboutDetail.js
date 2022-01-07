@@ -1,3 +1,5 @@
+/* Renders about detail: columnOne and columnTwo */
+
 export default function AboutDetail({ columnOne, columnTwo }) {
   return (
     <div className="about-detail">
