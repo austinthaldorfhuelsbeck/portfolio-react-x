@@ -4,8 +4,8 @@ export default function Experience({ experiences }) {
     return (
     <div className="experience-section">
       <div className="container-default w-container">
-        <h2>Experience + Education</h2>
-        <div className="w-layout-grid grid-2-columns my-experience">
+        <h2 data-aos="fade">Experience + Education</h2>
+        <div data-aos="fade" className="w-layout-grid grid-2-columns my-experience">
           <div className="experience-box top-left">
             <ExperienceBox experience={experiences[0]} />
           </div>
