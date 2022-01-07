@@ -1,4 +1,4 @@
-import BackBar from "../BackBar/BackBar"
+import BackBar from "../../Components/BackBar/BackBar"
 import ProjectGrid from "../Home/PortfolioSection/ProjectGrid"
 
 export default function Portfolio({ projects, scrollToTop }) {

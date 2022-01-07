@@ -1,4 +1,4 @@
-import BackBar from "../BackBar/BackBar"
+import BackBar from "../../Components/BackBar/BackBar"
 import { useParams } from "react-router-dom"
 import "./Portfolio.css"
 

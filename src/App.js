@@ -1,17 +1,17 @@
+// Dependencies
 import React, { useEffect } from "react"
 import { Routes, Route } from "react-router-dom"
 import { animateScroll as scroll } from "react-scroll"
-
-// Animate on scroll effects
 import Aos from "aos"
 import "aos/dist/aos.css"
 
-import Home from "./Home/Home"
-import Portfolio from "./Portfolio/Portfolio"
-import Project from "./Portfolio/Project"
-import About from "./About/About"
-import Contact from "./Contact/Contact"
-import Footer from "./Footer/Footer"
+// Components
+import Home from "./Routes/Home/Home"
+import Portfolio from "./Routes/Portfolio/Portfolio"
+import Project from "./Routes/Portfolio/Project"
+import About from "./Routes/About/About"
+import Contact from "./Routes/Contact/Contact"
+import Footer from "./Components/Footer/Footer"
 import "./App.css"
 
 import { nav, sections, projects, blocks } from "./data/data"
@@ -26,6 +26,7 @@ export default function App() {
     scroll.scrollToTop()
   }
   
+  // Turn data into props
   const props = {
     nav: nav,
     sections: sections,

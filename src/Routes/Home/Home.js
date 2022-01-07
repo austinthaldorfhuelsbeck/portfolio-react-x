@@ -1,5 +1,5 @@
 // Import sections
-import NavBar from "../NavBar/NavBar"
+import NavBar from "../../Components/NavBar/NavBar"
 import HeroHome from "./HeroHome/HeroHome"
 import BlocksSection from "./BlocksSection/BlocksSection"
 import PortfolioSection from "./PortfolioSection/PortfolioSection"

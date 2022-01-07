@@ -4,7 +4,7 @@ import { useForm } from "react-hook-form"
 import { init, sendForm } from 'emailjs-com'
 
 // Components
-import BackBar from "../BackBar/BackBar"
+import BackBar from "../../Components/BackBar/BackBar"
 
 // CSS
 import "./contact.css"
