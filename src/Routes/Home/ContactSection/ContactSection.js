@@ -1,4 +1,4 @@
-import ContactButton from "../../../Components/ContactButton"
+import ContactButton from "../../../Components/ContactButton/ContactButton"
 import "./ContactSection.css"
 
 export default function ContactSection({ header, paragraph, scrollToTop }) {

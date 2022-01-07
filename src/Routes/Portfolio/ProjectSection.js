@@ -1,4 +1,4 @@
-import Divider from "../../Components/Divider"
+import Divider from "../../Components/Divider/Divider"
 
 export default function ProjectSection({ section }) {
   // Figure out the conditional header

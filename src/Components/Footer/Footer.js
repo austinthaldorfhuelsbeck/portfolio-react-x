@@ -1,4 +1,4 @@
-import BlocksSection from "../../Home/BlocksSection/BlocksSection"
+import BlocksSection from "../../Routes/Home/BlocksSection/BlocksSection"
 import "./Footer.css"
 
 export default function Footer({ blocks, scrollToTop }) {

@@ -1,9 +1,9 @@
 import BackBar from "../../Components/BackBar/BackBar"
 import AboutHero from "./AboutHero"
 import AboutDetail from "./AboutDetail"
-import Divider from "../../Components/Divider"
+import Divider from "../../Components/Divider/Divider"
 import Experience from "./Experience/Experience"
-import ContactButton from "../../Components/ContactButton"
+import ContactButton from "../../Components/ContactButton/ContactButton"
 
 import { pages } from "../../data/data"
 
