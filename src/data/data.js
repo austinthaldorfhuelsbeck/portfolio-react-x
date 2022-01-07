@@ -173,8 +173,7 @@ export const projects = [
     category: "Web App",
     date: "May 2021",
     img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg",
-    paragraph:
-      "A customizable portfolio template built as a single-page app in React, with some custom CSS and simple animations.",
+    paragraph: "A customizable portfolio template built as a single-page app in React, with some custom CSS and simple animations.",
     link: "https://portfolio-with-react-xi.vercel.app/",
     repo: "https://github.com/austinthaldorfhuelsbeck/portfolio-with-react",
     technologies: [

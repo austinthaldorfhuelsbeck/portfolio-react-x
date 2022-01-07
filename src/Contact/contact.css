@@ -12,8 +12,12 @@ form {
 h1 {
   font-weight: 100;
   color: rgb(29, 29, 29);
-  text-align: center;
   padding-bottom: 10px;
+}
+
+h1,
+h3 {
+  text-align: center;
 }
 
 .form {
@@ -24,11 +28,6 @@ h1 {
 
 p {
   color: #6b6b6b;
-}
-
-p::before {
-  display: inline;
-  content: "⚠ ";
 }
 
 input,
