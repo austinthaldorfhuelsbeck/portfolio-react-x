@@ -203,7 +203,7 @@ export const projects = [
           `
             <p>Sit amet massa vitae tortor condimentum lacinia. Donec et <strong>odio pellentesque</strong> diam volutpat commodo sed. Eu turpis egestas pretium doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at <a href="http://google.com">consectetur lorem</a>. A cras semper auctor nequ.</p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Imperdiet sit laoreet tincidunt libero odio nisl ornare. Euismod ut imperdiet tincidunt non nunc malesuada. Non urna ornare ultrices hendrerit gravida. Placerat orci in vulputate dignissim facilisis quisque natoque. Aenean erat donec.</p>
           `,
-        img: "https://assets.website-files.com/6075067ce85066282bbab900/60764bd0b0f8f46b941cd267_project-creative-x-webflow-template.png"
+        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg"
       },
       {
         section_id: 2,
@@ -221,7 +221,7 @@ export const projects = [
           `
             <p>Sit amet massa vitae tortor condimentum lacinia. Donec et odio pellentesque diam volutpat commodo sed. Eu turpis <strong>egestas pretium</strong> doloril aenean. Aliquamisl. vel orci. Nunc pulvinar sapien et ligula. Eget arcu dictum varius duis at consectetur lorem. <a href="https://www.google.com/">A cras semper auctor</a> nequ.</p>
           `,
-        img: "https://assets.website-files.com/6075067ce85066282bbab900/60764c67f910134a4053f7b2_project-two-creative-x-webflow-template.png"
+        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-portfolio-thumbnail.jpg"
       }
     ]
   },
