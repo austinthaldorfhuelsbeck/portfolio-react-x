@@ -40,7 +40,7 @@ export default function App() {
         <Route exact path="/" element={<Home {...props} />} />
         <Route exact path="/portfolio" element={<Portfolio {...props} />} />
         <Route path="/portfolio/:url" element={<Project {...props} />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/about" element={<About scrollToTop={scrollToTop} />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer {...props} scrollToTop={scrollToTop} />

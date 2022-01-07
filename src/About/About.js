@@ -9,7 +9,7 @@ import { pages } from "../data/data"
 
 import "./About.css"
 
-export default function About() {
+export default function About({ scrollToTop }) {
   const props = pages.find((p) => p.title === "about")
 
   return (
@@ -20,7 +20,7 @@ export default function About() {
       <Divider />
       <div className="section">
         <Experience {...props} />
-        <ContactButton />
+        <ContactButton scrollToTop={scrollToTop }/>
       </div>
     </div>
   )
