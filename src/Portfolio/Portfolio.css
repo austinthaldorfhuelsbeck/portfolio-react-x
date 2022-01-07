@@ -36,9 +36,10 @@
 }
 .project-section-img {
   width: 90%;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-style: solid;
 }
 
 img.portfolio-image {
