@@ -40,7 +40,7 @@ export default function Contact() {
               minLength: 8
             })}
           />
-          <label>Message</label>
+          <label>Message*</label>
           <textarea
             type="textarea"
             {...register("message", {
