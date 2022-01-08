@@ -1,7 +1,9 @@
 export default function ProjectTechnologies({ technologies }) {
   return (
+
     <div className="project-block" data-aos="fade">
       <div className="mg-bottom-32-px-tablet">Technologies:</div>
+
       {technologies.map((technology) => (
         <div
           className="project-service-item"
@@ -10,6 +12,8 @@ export default function ProjectTechnologies({ technologies }) {
           {technology.title}
         </div>
       ))}
+
     </div>
+    
   )
 }

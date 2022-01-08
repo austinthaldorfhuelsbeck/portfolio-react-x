@@ -1,4 +1,7 @@
+// Dependencies
 import { Link } from "react-router-dom"
+
+// CSS
 import "./AboutSection.css"
 
 export default function AboutSection({ img_src, header, paragraph, scrollToTop }) {
