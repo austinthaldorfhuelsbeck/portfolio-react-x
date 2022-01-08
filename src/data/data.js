@@ -116,7 +116,7 @@ export const projects = [
     paragraph:
       "A basic React app built to render a frontend and facilitate a contact form.",
     link: "https://austinandemilycreative.com",
-    repo: "https://github.com/austinthaldorfhuelsbeck/austin-and-emily-creative",
+    repo: "https://github.com/austinthaldorfhuelsbeck/austin-and-emily-creative-react",
     technologies: [
       {
         technology_id: 1,

@@ -31,3 +31,45 @@
   right: 0%;
   bottom: 11%;
 }
+
+@media screen and (max-width: 991px) {
+  .section.say-hello {
+    padding-top: 181px;
+    padding-bottom: 181px;
+  }
+
+  .text-big-cta {
+    font-size: 120px;
+    line-height: 124px;
+  }
+
+  .text-big-cta.top {
+    top: 7%;
+  }
+
+  .text-big-cta.bottom {
+    bottom: 5%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section.say-hello {
+    padding-top: 135px;
+    padding-bottom: 135px;
+  }
+
+  .text-big-cta {
+    font-size: 80px;
+    line-height: 90px;
+  }
+
+  h2 {
+    font-size: 37px;
+    line-height: 48px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+}

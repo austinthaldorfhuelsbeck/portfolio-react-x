@@ -1,7 +1,7 @@
 // Dependencies
 import { useState } from "react"
 import { useForm } from "react-hook-form"
-import { init, sendForm } from 'emailjs-com'
+import { init, sendForm } from "emailjs-com"
 
 // Components
 import BackBar from "../../Components/BackBar/BackBar"

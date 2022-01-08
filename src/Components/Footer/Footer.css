@@ -22,3 +22,20 @@ footer {
   cursor: pointer;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 991px) {
+  .footer-grid-top {
+    grid-column-gap: 20px;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-grid-top {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    justify-items: center;
+    grid-row-gap: 24px;
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,12 +1,17 @@
 .header-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 28px;
+  padding-bottom: 28px;
   -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
+  -ms-flex-align: center;
   align-items: center;
   border-bottom: 2px solid #191919;
 }
@@ -18,4 +23,18 @@
 }
 .nav-item:hover {
   color: #919191;
+}
+
+@media screen and (max-width: 767px) {
+  .header-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .header-wrapper {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }

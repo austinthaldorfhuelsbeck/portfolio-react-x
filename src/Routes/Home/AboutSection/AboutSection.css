@@ -22,3 +22,29 @@
 .about-me-home-image-container {
   position: relative;
 }
+
+@media screen and (max-width: 991px) {
+  .container-default.home-about {
+    padding-top: 148px;
+    padding-bottom: 148px;
+  }
+
+  .grid-2-columns.home-about {
+    grid-row-gap: 56px;
+    grid-template-columns: 1fr;
+  }
+
+  .home-about-me-image {
+    width: 85%;
+  }
+
+  .about-me-home-image-container {
+    order: 9999;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-about-me-image {
+    width: 100%;
+  }
+}

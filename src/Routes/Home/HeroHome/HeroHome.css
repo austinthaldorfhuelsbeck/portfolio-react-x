@@ -15,7 +15,8 @@
   padding: 28px 56px;
   border-radius: 80px;
   background-color: #191919;
-  transition: transform 300ms ease, background-color 300ms ease, -webkit-transform 300ms ease;
+  transition: transform 300ms ease, background-color 300ms ease,
+    -webkit-transform 300ms ease;
   color: #fff;
   font-size: 16px;
   line-height: 18px;
@@ -55,6 +56,11 @@
     padding-bottom: 4px;
   }
 
+  .section.hero.projects {
+    padding-top: 86px;
+    padding-bottom: 4px;
+  }
+
   .container-default {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -66,5 +72,35 @@
   .grid-2-columns.hero-home {
     grid-row-gap: 0px;
     grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .hero-image-home {
+    position: static;
+    left: auto;
+    width: 80%;
+    max-width: 100%;
+    margin-top: 46px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-image-home {
+    width: 100%;
+  }
+
+  .section.hero-home {
+    padding-top: 56px;
+  }
+
+  .grid-2-columns.hero-home {
+    grid-row-gap: 56px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero-image-home {
+    margin-top: 0px;
   }
 }

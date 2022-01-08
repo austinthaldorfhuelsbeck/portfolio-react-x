@@ -12,7 +12,6 @@ export default function HeroImage({ img_src }) {
     <div className="hero-home-image-container">
       <img
         src={img_src}
-        sizes="(max-width: 479px) 93vw, (max-width: 767px) 94vw, (max-width: 991px) 95vw, 616px"
         alt="Austin Thaldorf-Huelsbeck"
         className="hero-image-home"
       />
