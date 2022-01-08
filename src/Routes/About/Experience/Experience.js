@@ -1,5 +1,6 @@
 // Components
-import ExperienceBox from "./ExperienceBox"
+import ExperienceBox from "./ExperienceBox";
+import ResumeButton from "../../../Components/ResumeButton/ResumeButton"
 
 export default function Experience({ experiences }) {
 
@@ -9,6 +10,7 @@ export default function Experience({ experiences }) {
     <div className="experience-section">
       <div className="container-default w-container">
         <h2 data-aos="fade">Experience + Education</h2>
+        <ResumeButton />
         <div data-aos="fade" className="w-layout-grid grid-2-columns my-experience">
           <div className="experience-box top-left">
             <ExperienceBox experience={experiences[0]} />
