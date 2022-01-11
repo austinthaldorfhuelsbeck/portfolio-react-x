@@ -21,6 +21,17 @@ export default function Project({ projects }) {
   const executionSection = project.sections.find((s) => s.title === "execution")
   const resultsSection = project.sections.find((s) => s.title === "results")
 
+  // Renders the project sections, if they were found
+  const renderProjectSections = ( aboutSection, executionSection, resultsSection ) => {
+    return (
+      <>
+        {aboutSection && <ProjectSection section={aboutSection} />}
+        {executionSection && <ProjectSection section={executionSection} />}
+        {resultsSection && <ProjectSection section={resultsSection} />}
+      </>
+    )
+  }
+
   return (
     <>
       <BackBar />
@@ -33,9 +44,7 @@ export default function Project({ projects }) {
           data-aos="fade"
         />
         <ProjectTechnologies technologies={project.technologies} />
-        <ProjectSection section={aboutSection} />
-        <ProjectSection section={executionSection} />
-        <ProjectSection section={resultsSection} />
+        {renderProjectSections(aboutSection, executionSection, resultsSection)}
       </div>
     </>
   )
