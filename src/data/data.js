@@ -65,11 +65,15 @@ export const projects = [
       },
       {
         technology_id: 2,
-        title: "React.js"
+        title: "React"
       },
       {
         technology_id: 3,
-        title: "Node.js"
+        title: "Node"
+      },
+      {
+        technology_id: 5,
+        title: "Express"
       },
       {
         technology_id: 4,
@@ -124,7 +128,11 @@ export const projects = [
       },
       {
         technology_id: 2,
-        title: "React.js"
+        title: "React"
+      },
+      {
+        technology_id: 4,
+        title: "CSS"
       },
       {
         technology_id: 5,
@@ -178,11 +186,11 @@ export const projects = [
       },
       {
         technology_id: 2,
-        title: "React.js"
+        title: "React"
       },
       {
         technology_id: 3,
-        title: "Node.js"
+        title: "Node"
       },
       {
         technology_id: 4,
@@ -214,6 +222,66 @@ export const projects = [
         html:
           `
             <p>This site served as my only portfolio through 2021, and I have been able to continue updating it regularly through the continuous deployment on Vercel.</p><p>The design is original and continuously changing, and it is simple to adapt into a React or Next.js app without writing any backend code, or as an HTML/CSS template.</p>
+          `,
+        img: ""
+      }
+    ]
+  },
+  {
+    project_id: 4,
+    url: "study-app",
+    title: "Study App",
+    category: "React App",
+    date: "March 2021",
+    img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/flashcard-o-matic-thumbnail.png",
+    paragraph: "A React app that allows users to create, edit, and delete decks and cards within them.",
+    link: "https://flashcard-o-matic-one.vercel.app/",
+    repo: "https://github.com/austinthaldorfhuelsbeck/flashcard-o-matic",
+    technologies: [
+      {
+        technology_id: 1,
+        title: "JavaScript"
+      },
+      {
+        technology_id: 2,
+        title: "React"
+      },
+      {
+        technology_id: 5,
+        title: "Express"
+      },
+      {
+        technology_id: 6,
+        title: "Knex"
+      },
+      {
+        technology_id: 4,
+        title: "Bootstrap"
+      }
+    ],
+    sections: [
+      {
+        section_id: 1,
+        title: "about",
+        html:
+          `
+            <p>This was my final React project during my time as a
+              <a href="http://thinkful.com/bootcamp/web-development/" rel="noreferrer" target="_blank">Thinkful</a> student.
+              The user can create decks to study from within, and then populate those decks with cards. Once a deck has at
+              least three cards, it is ready to study from. The user can also edit and delete cards and decks.</p>
+            <p>Later, I created an Express API with Knex to store decks and cards in a database. This replaced the JSON
+              data which was provided. This allows the app to be configured with any postgres database.</p>
+          `,
+        img: ""
+      },
+      {
+        section_id: 2,
+        title: "execution",
+        html:
+          `
+            <p>The focus of this project was on the complexity of the routing, and the handling of state being passed down
+              through props with React Hooks.</p>
+            <p></p>
           `,
         img: ""
       }
