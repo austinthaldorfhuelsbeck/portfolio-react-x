@@ -3,7 +3,7 @@ import ProjectLink from "./ProjectLink"
 
 export default function ProjectHeader({ project }) {
   return (
-    <div className="container-medium text-center" data-aos="fade">
+    <div className="container-medium project-header" data-aos="fade">
 
       {/* Header */}
       <div className="project-card-details post">

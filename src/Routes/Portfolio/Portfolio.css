@@ -42,6 +42,10 @@
   border-style: solid;
 }
 
+.project-header, .project-header h1 { /* Overrides global header rule */
+  text-align: center;
+}
+
 img.portfolio-image {
   width: 90%;
   margin: 2rem;
