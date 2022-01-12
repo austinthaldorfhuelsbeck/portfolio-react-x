@@ -229,6 +229,66 @@ export const projects = [
   },
   {
     project_id: 4,
+    url: "restaurant-reservations",
+    title: "Restaurant Reservation Manager",
+    category: "Full-Stack Web App",
+    date: "May 2021",
+    img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/periodic-tables-thumbnail.png",
+    paragraph: "A lightweight and responsive webapp to manage your restaurant's reservations and seating.",
+    link: "https://restaurant-reservation-client-five.vercel.app/",
+    repo: "https://github.com/austinthaldorfhuelsbeck/restaurant-reservation",
+    technologies: [
+      {
+        technology_id: 1,
+        title: "JavaScript"
+      },
+      {
+        technology_id: 2,
+        title: "React"
+      },
+      {
+        technology_id: 5,
+        title: "Express"
+      },
+      {
+        technology_id: 6,
+        title: "Knex"
+      },
+      {
+        technology_id: 4,
+        title: "Bootstrap"
+      }
+    ],
+    sections: [
+      {
+        section_id: 1,
+        title: "about",
+        html:
+          `
+            <p>This was my full-stack capstone project during my time as a
+              <a href="http://thinkful.com/bootcamp/web-development/" rel="noreferrer" target="_blank">Thinkful</a> student.
+              The user can accept new reservations as they're called in, search existing reservations by phone number, and edit reservation details.</p>
+            <p>The user can also set up the app with their own restaurant's tables, allowing them to seat customers as they arrive.</p>
+          `,
+        img: ""
+      },
+      {
+        section_id: 2,
+        title: "execution",
+        html:
+          `
+            <p>The focus of this project was to synthesize all of the concepts we had learned. Following a development schedule and performing
+              tests along the way, I was able to build the Express API and ensure it was rock-solid before working on the frontend.</p>
+            <p>After writing a bit of custom CSS, I left the rest of the styling to Bootstrap and focused on writing high-quality functions
+              to retreive and manipulate data. While developing this React app, I learned how to efficiently structure and leverage components,
+              as well as React Router, to create a dynamic and fluid single-page presentation without errors.</p>
+          `,
+        img: ""
+      }
+    ]
+  },
+  {
+    project_id: 5,
     url: "study-app",
     title: "Study App",
     category: "React App",
@@ -290,7 +350,7 @@ export const projects = [
     ]
   },
   {
-    project_id: 4,
+    project_id: 6,
     url: "pomodoro-timer",
     title: "Pomodoro Timer",
     category: "React App",
