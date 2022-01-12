@@ -289,6 +289,60 @@ export const projects = [
       }
     ]
   },
+  {
+    project_id: 4,
+    url: "pomodoro-timer",
+    title: "Pomodoro Timer",
+    category: "React App",
+    date: "February 2021",
+    img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/pomodoro-timer-thumbnail.png",
+    paragraph: "A JavaScript project for displaying a customizable study timer, displayed as a simple React app.",
+    link: "https://pomodoro-react-app-huelsbeck.vercel.app/",
+    repo: "https://github.com/austinthaldorfhuelsbeck/pomodoro-react-app-huelsbeck",
+    technologies: [
+      {
+        technology_id: 1,
+        title: "JavaScript"
+      },
+      {
+        technology_id: 2,
+        title: "React"
+      },
+      {
+        technology_id: 4,
+        title: "Bootstrap"
+      },
+      {
+        technology_id: 0,
+        title: "HTML"
+      }
+    ],
+    sections: [
+      {
+        section_id: 1,
+        title: "about",
+        html:
+          `
+            <p>Designed to be a great study tool enabling a user to set a focus duration and a break duration.
+              The style of the app combines CSS with some Bootstrap elements.</p>
+            <p>This project was a great exercise in programming and applying software design fundamentals.</p>
+          `,
+        img: ""
+      },
+      {
+        section_id: 2,
+        title: "execution",
+        html:
+          `
+            <p>Multiple React components were required, and the design of the project accounts for the single-use
+              principle. The timer function was carefully written and re-written to accomplish its goal.</p>
+            <p>The main component handles a significant amount of state, conditional rendering, and utilizing
+              props to build the app's structure.</p>
+          `,
+        img: ""
+      }
+    ]
+  },
 ]
 
 export const blocks = [
