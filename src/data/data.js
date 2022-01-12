@@ -280,8 +280,10 @@ export const projects = [
         html:
           `
             <p>The focus of this project was on the complexity of the routing, and the handling of state being passed down
-              through props with React Hooks.</p>
-            <p></p>
+              through props with React Hooks. It was equally important to break components down to appropriate size and
+              to organize the code thoughtfully.</p>
+            <p>The styling was implemented with Bootstrap to get a quick good look, and focus on the logic. After the fact,
+              an Express API with Knex was added to the project. The React app uses hooks to load and modify the data.</p>
           `,
         img: ""
       }
