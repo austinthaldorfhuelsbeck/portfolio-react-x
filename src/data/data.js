@@ -112,15 +112,14 @@ export const projects = [
   },
   {
     project_id: 2,
-    url: "austin-and-emily-creative",
-    title: "Austin + Emily Creative",
-    category: "Web App",
-    date: "Mar 2021",
-    img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg",
-    paragraph:
-      "A basic React app built to render a frontend and facilitate a contact form.",
-    link: "https://austinandemilycreative.com",
-    repo: "https://github.com/austinthaldorfhuelsbeck/austin-and-emily-creative-react",
+    url: "restaurant-reservations",
+    title: "Restaurant Reservation Manager",
+    category: "Full-Stack Web App",
+    date: "May 2021",
+    img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/periodic-tables-thumbnail.png",
+    paragraph: "A lightweight and responsive webapp to manage your restaurant's reservations and seating.",
+    link: "https://restaurant-reservation-client-five.vercel.app/",
+    repo: "https://github.com/austinthaldorfhuelsbeck/restaurant-reservation",
     technologies: [
       {
         technology_id: 1,
@@ -131,11 +130,15 @@ export const projects = [
         title: "React"
       },
       {
-        technology_id: 4,
-        title: "CSS"
+        technology_id: 5,
+        title: "Express"
       },
       {
-        technology_id: 5,
+        technology_id: 6,
+        title: "Knex"
+      },
+      {
+        technology_id: 4,
         title: "Bootstrap"
       }
     ],
@@ -145,27 +148,25 @@ export const projects = [
         title: "about",
         html:
           `
-            <p>My wife started a wedding videography business in 2018, and in 2019 I came alongside as her second videographer. It wasn't long before we needed a website, and I built us this basic frontend app to save some money on hosting fees for site-builders.</p><p>This single-page React app displays our portfolio, provides information about us and what we do, and renders a contact form to submit an inquiry. The node.js backend sends alerts to our inbox when a couple reaches out.</p>
+            <p>This was my full-stack capstone project during my time as a
+              <a href="http://thinkful.com/bootcamp/web-development/" rel="noreferrer" target="_blank">Thinkful</a> student.
+              The user can accept new reservations as they're called in, search existing reservations by phone number, and edit reservation details.</p>
+            <p>The user can also set up the app with their own restaurant's tables, allowing them to seat customers as they arrive.</p>
           `,
-        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/aec-2.gif"
+        img: ""
       },
       {
         section_id: 2,
         title: "execution",
         html:
           `
-            <p>This was the first full-stack app I developed while I was learning Node.js and Express. The API stores data related to the featured couples, and stores all the form's responses into a database.</p><p>The React frontend renders the featured couples by utilizing the API, which allows us to update the site without writing any code.</p></p><p>While developing this project I became quite familiar with the following libraries:</p><ul><li>Express with 'cors' & 'nodemailer'</li><li>Bootstrap & 'react-bootstrap'</li><li>'react-player' for displaying video</li><li>'react-router' for displaying a single-page app</li><li>'react-scrips' to start servers & deployment</li></ul>
+            <p>The focus of this project was to synthesize all of the concepts we had learned. Following a development schedule and performing
+              tests along the way, I was able to build the Express API and ensure it was rock-solid before working on the frontend.</p>
+            <p>After writing a bit of custom CSS, I left the rest of the styling to Bootstrap and focused on writing high-quality functions
+              to retreive and manipulate data. While developing this React app, I learned how to efficiently structure and leverage components,
+              as well as React Router, to create a dynamic and fluid single-page presentation without errors.</p>
           `,
         img: ""
-      },
-      {
-        section_id: 3,
-        title: "results",
-        html:
-          `
-            <p>The primary purpose of the site is to display our work and to collect leads. In 2021, the form on this site became our top source for getting in contact with new couples.</p><p>The most recent version of the site deployed in March 2021, and the nodemailer solution has remained reliable.</p>
-          `,
-        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/aec-3.gif"
       }
     ]
   },
@@ -229,14 +230,15 @@ export const projects = [
   },
   {
     project_id: 4,
-    url: "restaurant-reservations",
-    title: "Restaurant Reservation Manager",
-    category: "Full-Stack Web App",
-    date: "May 2021",
-    img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/periodic-tables-thumbnail.png",
-    paragraph: "A lightweight and responsive webapp to manage your restaurant's reservations and seating.",
-    link: "https://restaurant-reservation-client-five.vercel.app/",
-    repo: "https://github.com/austinthaldorfhuelsbeck/restaurant-reservation",
+    url: "austin-and-emily-creative",
+    title: "Austin + Emily Creative",
+    category: "Web App",
+    date: "Mar 2021",
+    img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-austin-emily-thumbnail.jpg",
+    paragraph:
+      "A basic React app built to render a frontend and facilitate a contact form.",
+    link: "https://austinandemilycreative.com",
+    repo: "https://github.com/austinthaldorfhuelsbeck/austin-and-emily-creative-react",
     technologies: [
       {
         technology_id: 1,
@@ -247,15 +249,11 @@ export const projects = [
         title: "React"
       },
       {
-        technology_id: 5,
-        title: "Express"
-      },
-      {
-        technology_id: 6,
-        title: "Knex"
-      },
-      {
         technology_id: 4,
+        title: "CSS"
+      },
+      {
+        technology_id: 5,
         title: "Bootstrap"
       }
     ],
@@ -265,25 +263,27 @@ export const projects = [
         title: "about",
         html:
           `
-            <p>This was my full-stack capstone project during my time as a
-              <a href="http://thinkful.com/bootcamp/web-development/" rel="noreferrer" target="_blank">Thinkful</a> student.
-              The user can accept new reservations as they're called in, search existing reservations by phone number, and edit reservation details.</p>
-            <p>The user can also set up the app with their own restaurant's tables, allowing them to seat customers as they arrive.</p>
+            <p>My wife started a wedding videography business in 2018, and in 2019 I came alongside as her second videographer. It wasn't long before we needed a website, and I built us this basic frontend app to save some money on hosting fees for site-builders.</p><p>This single-page React app displays our portfolio, provides information about us and what we do, and renders a contact form to submit an inquiry. The node.js backend sends alerts to our inbox when a couple reaches out.</p>
           `,
-        img: ""
+        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/aec-2.gif"
       },
       {
         section_id: 2,
         title: "execution",
         html:
           `
-            <p>The focus of this project was to synthesize all of the concepts we had learned. Following a development schedule and performing
-              tests along the way, I was able to build the Express API and ensure it was rock-solid before working on the frontend.</p>
-            <p>After writing a bit of custom CSS, I left the rest of the styling to Bootstrap and focused on writing high-quality functions
-              to retreive and manipulate data. While developing this React app, I learned how to efficiently structure and leverage components,
-              as well as React Router, to create a dynamic and fluid single-page presentation without errors.</p>
+            <p>This was the first full-stack app I developed while I was learning Node.js and Express. The API stores data related to the featured couples, and stores all the form's responses into a database.</p><p>The React frontend renders the featured couples by utilizing the API, which allows us to update the site without writing any code.</p></p><p>While developing this project I became quite familiar with the following libraries:</p><ul><li>Express with 'cors' & 'nodemailer'</li><li>Bootstrap & 'react-bootstrap'</li><li>'react-player' for displaying video</li><li>'react-router' for displaying a single-page app</li><li>'react-scrips' to start servers & deployment</li></ul>
           `,
         img: ""
+      },
+      {
+        section_id: 3,
+        title: "results",
+        html:
+          `
+            <p>The primary purpose of the site is to display our work and to collect leads. In 2021, the form on this site became our top source for getting in contact with new couples.</p><p>The most recent version of the site deployed in March 2021, and the nodemailer solution has remained reliable.</p>
+          `,
+        img: "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/aec-3.gif"
       }
     ]
   },
@@ -556,11 +556,11 @@ export const pages = [
     page_id: 1,
     title: "about",
     header: "Hello, I'm Austin Thaldorf-Huelsbeck",
-    paragraph: "Full-stack web developer who is proficient in HTML, CSS, and JavaScript with React.js and Node.js. Digital marketing specialist and wedding vendor.",
-    columnOne: "I live amongst the pines in beautiful Seattle, Washington. I love React, and I spend a lot of my time building React projects and learning new technologies to make my projects better. Using these skills, I have been able to help some of my friends and colleagues to create the web presence of their dreams. When I'm not developing projects, I'm probably creating wedding films with my wife Emily.",
-    columnTwo: "Full-stack web development combines a bit of the creative with the technical. My training in digital marketing & filmmaking inform the design side, while my passion for math & engineering informs the technical side. While building apps alone has been rewarding, my goal is to be able to create with a team of like-minded developers. My professional experience over the past decade has taught me that collaboration is the key to creating amazing results and sharpening your own skills.",
+    paragraph: "Full-Stack software engineer proficient in using Javascript for front-end and back-end programming. React, HTML, CSS, Node.JS, Express, PostgreSQL.",
+    columnOne: "Hello! My name is Austin. Beautiful Seattle, Washington is where I call home, alongside my beautiful family: my wife Emily, our little chihuaua and our big Siamese cat. I love React, and I spend a lot of my time building React projects and learning new technologies to make my projects better. Using these skills, I have been able to help some of my friends and colleagues to create the web presence of their dreams. When I'm not developing projects, I'm probably creating wedding films with Emily.",
+    columnTwo: "Web development combines a bit of the creative with the technical. My training in digital marketing & filmmaking inform the design side, while my passion for math & engineering informs the technical side. While building apps alone has been rewarding, my goal is to be able to create with a team of like-minded developers. My professional experience over the past decade has taught me that collaboration is the key to creating amazing results and sharpening your own skills.",
     img_src:
-      "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/austinthaldorfhuelsbeck.jpg",
+      "https://portfolio-x-ath.s3.us-west-2.amazonaws.com/ath-wedding-portrait.png",
     experiences: [
       {
         experienceId: 1,
@@ -596,7 +596,7 @@ export const pages = [
         start: "Nov 2020",
         end: "July 2021",
         url: "https://www.thinkful.com/bootcamp/web-development/",
-        paragraph: "Fast-paced bootcamp with an emphasis on mentorship. HTML, CSS, JavaScript. Postgres, React, Express, Node stack."
+        paragraph: "Fast-paced bootcamp with an emphasis on mentorship. HTML, CSS, JavaScript, Data Structures/Algorithms. Stack: Postgres, Express, React, Node."
       }
     ]
   },
