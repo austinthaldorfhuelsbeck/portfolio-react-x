@@ -60,6 +60,7 @@ The design is modern and smooth on a desktop and loads relatively quickly. It pr
 `aos`
 `dotenv`
 `emailjs`
+`react-fontawesome`
 `react`
 `react-hook-form`
 `react-router-dom`
