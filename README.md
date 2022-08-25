@@ -35,9 +35,15 @@ A basic, mostly greyscale, modern-looking portfolio template for developers or d
 
 ### About the Project
 
+I needed a portfolio, I purchased this template, and I wanted to challenge myself to recreate it in React.
+
 ### Project Execution
 
+The app is composed of React components with the content coming from a configuration file named 'data.js'. The contact form can be configured by creating a '.env' file in the root directory with your EmailJS variables.
+
 ### Project Results
+
+The design is modern and smooth on a desktop and loads relatively quickly. It presents itself like a single-page app at first glance, but with some layers revealed upon exploration. The next step is to replace the data configuration file with a db & api.
 
 ## 4) Installation
 
@@ -72,3 +78,7 @@ A basic, mostly greyscale, modern-looking portfolio template for developers or d
 3. Deploy your portfolio quickly and easily using [Vercel](https://vercel.com).
 
 ## 6) Credits & License
+
+Design Copyright © Creative X | Designed by BRIX Templates - Powered by Webflow
+
+Code is yours as far as I'm concerned
