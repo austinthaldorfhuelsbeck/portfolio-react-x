@@ -43,7 +43,7 @@ The app is composed of React components with the content coming from a configura
 
 ### Project Results
 
-The design is modern and smooth on a desktop and loads relatively quickly. It presents itself like a single-page app at first glance, but with some layers revealed upon exploration. The next step is to replace the data configuration file with a db & api.
+The design is modern and smooth on a desktop and loads relatively quickly. It presents itself like a single-page app at first glance, but with some layers revealed upon exploration. On mobile, hey, it adjusts itself accordingly. The next step is to replace the data configuration file with a db & api.
 
 ## 4) Installation
 
